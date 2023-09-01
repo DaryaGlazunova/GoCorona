@@ -1,0 +1,78 @@
+.button {
+    display: inline-block;
+    padding: 0 30px;
+    background-color:$bgc-red;
+    border-radius: 5px;
+
+
+    &_blue {
+        padding: 0 30px;
+        background-color: $bgc-blue;
+        border-radius: 5px;
+
+    }
+        & span{
+            font-family: Raleway;
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 1.4px;
+            color: $fc-white;
+            line-height: 40px;
+            text-transform: uppercase;
+        }
+    
+}
+
+
+
+
+.text-and-att {
+
+
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_rightalign {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center; 
+        }
+
+    }
+
+
+    &__column {
+        
+    }
+
+
+    &__title {
+        font-size: 44px;
+
+        font-weight: bold;
+        line-height: 1.26;
+        color: $fc-black;
+        margin: 0 0 12px 0;
+        & span{
+            color: $fc-red;
+        }
+        &_blue span{
+                color: $fc-blue;
+            }
+        }
+
+    
+    &__text {
+        font-size: 12px;;
+        line-height: 1.38;
+        letter-spacing: 0.96px;
+        color: $fc_grey;
+        
+        margin: 0 0 24px 0;
+    }
+
+}
+
+
+

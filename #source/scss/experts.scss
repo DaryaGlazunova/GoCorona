@@ -1,0 +1,63 @@
+.experts {
+    background-color:$bgc-light-grey;
+    &__container {
+       
+        
+    }
+
+    &__contnent {
+        padding: 0 0 116px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    &__text {
+        flex: 0 1 48%;
+    }
+
+    &__text-and-att {}
+
+    &__image {
+        
+        
+
+    }
+
+    &__media {
+        flex: 0 1 52%;
+        text-align: center;
+    }
+}
+
+.media {
+    border-radius: 8px;
+    box-shadow: 0 4px 18px 0 rgba(88, 126, 236, 0.18);
+    background-color: #fff;
+    width: 521px;
+   // min-height: 284px;
+    &__image {
+        display: inline-block;
+        padding: 24px 0;
+        position: relative;
+        & img{
+            max-width: 100%;
+        }
+    }
+}
+    
+
+
+@media(max-width:750px){
+    .experts { 
+        &__contnent{
+        flex-direction: column-reverse;
+        padding: 0 50px;
+    }
+    &__media{
+        flex: 1 0 100%;
+        margin-bottom: 50px;
+    }
+
+    }
+    
+}
